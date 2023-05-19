@@ -4,7 +4,7 @@
     ],
     "description" : "Cogs uploaded to my personal bot, Sputnik",
     "install_msg" : "Installed. hopefully it all works as intended",
-    "name" : "Sputnik",
+    "name" : "sputnik",
     "short" : ":3",
     "tags" : [
         "utilities",
