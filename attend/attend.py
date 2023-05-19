@@ -1,4 +1,8 @@
 import discord
+
+import datetime #for timecodes... maybe
+
+
 from redbot.core import commands, app_commands
 from enum import Enum
 
