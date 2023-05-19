@@ -23,11 +23,11 @@ class attendtest(commands.Cog):
 
 #command 2
     @app_commands.command(name="arg-test")
-    @app_commands.describe(test1="description of what the choice means")
+    @app_commands.describe(arg-group="description of what the choice means")
     async def testarg(self, interaction: discord.Interaction, test1: Args):
         """less simple, choice of arguments"""
         # Your code will go here
-        await interaction.response.send_message(f"chosen arg is {test1.value}", ephemeral=True)
+        await interaction.response.send_message("chosen arg is {arg-group.value}", ephemeral=True)
         
 #command 3
 #    @app_commands.command(name=
