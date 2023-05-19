@@ -1,6 +1,6 @@
 from redbot.core import commands
 
-class 13th_attendtest(commands.Cog):
+class attendtest(commands.Cog):
     """test"""
 
     def __init__(self, bot):
