@@ -1,4 +1,5 @@
-from redbot.core import commands
+import discord
+from redbot.core import commands, app_commands
 
 class attendtest(commands.Cog):
     """test"""
@@ -6,8 +7,8 @@ class attendtest(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command()
-    async def test(self, ctx):
+    @app_commands.command()
+    async def test(self, interaction: discord.Interaction):
         """simple call and response"""
         # Your code will go here
-        await ctx.send("test")
+        await interaction.response.send_message("test", ephemeral=True)
