@@ -13,7 +13,7 @@ class attendtest(commands.Cog):
         self.bot = bot
 
 #command 1
-    @app_commands.command(name="command test")
+    @app_commands.command(name="command-test")
     async def test(self, interaction: discord.Interaction):
         """simple call and response"""
         # Your code will go here
@@ -21,7 +21,7 @@ class attendtest(commands.Cog):
 
 
 #command 2
-    @app_commands.command(name="interaction test")
+    @app_commands.command(name="interaction-test")
     @app_commands.describe(test1="role to sign up as")
     async def testint(self, interaction: discord.Interaction, test1: Roles):
         """less simple, interaction decision"""
