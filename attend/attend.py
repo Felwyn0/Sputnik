@@ -2,6 +2,7 @@ import discord
 from redbot.core import commands, app_commands
 from enum import Enum
 
+#used in command 2, "testarg"
 class Args(Enum):
     One = "1"
     Two = "2"
@@ -22,7 +23,7 @@ class attendtest(commands.Cog):
 
 #command 2
     @app_commands.command(name="arg-test")
-    @app_commands.describe(test1="description of choice")
+    @app_commands.describe(test1="description of what the choice means")
     async def testarg(self, interaction: discord.Interaction, test1: Args):
         """less simple, choice of arguments"""
         # Your code will go here
