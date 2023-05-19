@@ -22,7 +22,7 @@ class attendtest(commands.Cog):
 
 #command 2
     @app_commands.command(name="awa")
-    @app_commands.describe(testint="role to sign up as")
+    @app_commands.describe(test1="role to sign up as")
     async def testint(self, interaction: discord.Interaction, test1: Roles):
         """less simple, interaction decision"""
         # Your code will go here
