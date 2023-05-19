@@ -7,7 +7,7 @@ class attendtest(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def ping(self, ctx):
+    async def test(self, ctx):
         """simple call and response"""
         # Your code will go here
-        await ctx.send("pong")
+        await ctx.send("test")
