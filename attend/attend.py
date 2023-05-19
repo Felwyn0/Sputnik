@@ -2,7 +2,7 @@ import discord
 from redbot.core import commands, app_commands
 from enum import Enum
 
-class roles(Enum):
+class Roles(Enum):
     Owner = "owner"
     Dancer = "dancer"
 
