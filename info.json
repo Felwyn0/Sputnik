@@ -1,0 +1,14 @@
+{
+    "author" : [
+        "Felwyn"
+    ],
+    "description" : "Cogs uploaded to my personal bot, Sputnik",
+    "install_msg" : "Installed. hopefully it all works as intended",
+    "name" : "Sputnik",
+    "short" : ":3",
+    "tags" : [
+        "utilities",
+        "github",
+		"personal"
+    ]
+}

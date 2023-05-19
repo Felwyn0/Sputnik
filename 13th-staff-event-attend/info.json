@@ -1,0 +1,18 @@
+{
+    "author": [
+        "Felwyn"
+    ],
+    "description": "13th floor attendance utility",
+    "disabled" : false,
+    "end_user_data_statement" : "Currently does not store data.",
+    "hidden": false,
+    "install_msg": "i hope this all works",
+    "min_bot_version" : "3.4.0",
+    "min_python_version" : [3, 8, 1],
+    "permissions" : ["embed_links", "add_reactions"],
+    "required_cogs" : {},
+    "requirements" : [],
+    "short": "Signups",
+    "tags" : ["utility", "embeds", "reactions", "automatic"],
+    "type": "COG"
+}
